@@ -1,8 +1,11 @@
 import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
-* {
+*{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 
 header {
   color: white;
@@ -10,6 +13,7 @@ header {
   position: absolute;
   justify-content: center;
   margin-bottom: 650px;
+  margin-top: 150px;
   font-size: 2rem;
   width: 70%;
 }
@@ -52,6 +56,7 @@ body {
   position: relative;
   padding: 1rem;
   overflow: auto;
+  margin-top: 60px;
 }
 
 .pw button {
